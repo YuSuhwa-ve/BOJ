@@ -1,14 +1,13 @@
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-words = input()
+import sys
 
-L = len(words)
-result = 1
+alpabet="abcdefghijklmnopqrstuvwxyz"
+S = input()
+index=[]
+count=1
+for n in S:
+	index.append(alpabet.find(n))
+for i in len(index)-1:
+	if index[i]>index[i+1]:
+		count+=1
 
-for i in range(L-1):
-     
-    if alphabet.index(words[i]) < alphabet.index(words[i+1]):
-        continue
-    else:
-        result +=1
-
-print(result)
+print(count)
