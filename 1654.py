@@ -30,7 +30,7 @@ while start<=end:
 
 
 
-		ㅇㄹㅇㄹㅇㄹ
+
 
 print("?")	
 	
