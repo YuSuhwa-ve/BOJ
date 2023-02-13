@@ -3,6 +3,7 @@ import sys
 N, M = map(int,sys.stdin.readline().split())
 A=[]
 B=[]
+
 result=0
 
 def flip(a,I,J):
